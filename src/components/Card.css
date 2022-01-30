@@ -1,0 +1,110 @@
+/* .container, button, .name, .container-temp, min, max, img*/
+
+.container {
+  background: url('../images/background.jpg') no-repeat;
+  background-color: #4c97e6;
+  background-size: contain;
+  border-radius: 0 3rem;
+  border: 1px solid #00000055;
+  box-shadow: 1px 0 4px 1px #00000077;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin: 1.5rem;
+  min-height: 20rem;
+  min-width: 15rem;
+  position: relative;
+  transition: .3s ease-out;
+  width: fit-content;
+  z-index: 1;
+}
+
+.container:hover {
+  border-radius: 0;
+  transform: scale(1.05, 1.05);
+}
+
+button {
+  align-self: flex-end;
+  background-color: #75818E22;
+  border-color: #CA0B0055;
+  border-style: solid;
+  border-radius: 10px 0 0 10px;
+  border-width: 3px 0 3px 3px;
+  box-shadow: 1px 0 3px #00000077;
+  color: #CA0B0055;
+  font-weight: bold;
+  margin: 3rem 0;
+  padding: .5rem .6rem .5rem .7rem;
+  position: absolute;
+  transition: .2s ease-out;
+  width: fit-content;
+  z-index: 2;
+}
+
+button:hover {
+  background-color: #CA0B00;
+  border-color: #CA0B00;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.name {
+  bottom: .5em;
+  text-shadow: 0 0 2px #ffffff66;
+  color: transparent;
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  right: .2em;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  text-decoration: underline dotted;
+  transition: .3s linear;
+}
+
+.name:hover {
+  color: #ffffff99;
+}
+
+.container-temp {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container-temp span {
+  background-color: #ffffff11;
+  padding: .5rem;
+  border-radius: .5rem;
+  margin-bottom: 1rem;
+}
+
+span hr {
+  border-color: #ffffff55;
+  width: 50%;
+}
+
+.container-temp img {
+  margin: 1rem auto 1rem auto;
+  width: 10rem;
+  background-color: #ffffff11;
+  border-radius: 0 3rem 0.5rem 3rem;
+  transition: .5s ease;
+}
+
+.temp {
+  align-items: flex-end;
+  color: #ffffff99;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2.5rem;
+}
+
+.num {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+p+p {
+  margin-top: -1rem;
+}
