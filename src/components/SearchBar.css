@@ -1,6 +1,6 @@
 #input {
-  background-color: #00000006;
-  border: 1px solid #00000055;
+  background-color: #ffffff55;
+  border: 1px solid #ffffff55;
   border-radius: .5rem;
   color: #00000099;
   font-size: medium;
@@ -15,14 +15,14 @@
 }
 
 #input:hover {
-  background-color: #ffffff55;
-  border: 1px solid #ffffff55;
+  background-color: #00000006;
+  border: 1px solid #00000055;
   color: #00000099;
 }
 
 #input:focus {
-  background-color: #ffffff55;
-  border: 1px solid #ffffff55;
+  background-color: #00000006;
+  border: 1px solid #00000055;
   color: #00000099;
 }
 

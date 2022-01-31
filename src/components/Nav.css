@@ -1,0 +1,42 @@
+a {
+  text-decoration: none;
+}
+
+#about {
+  color: #00000044;
+}
+
+#about:hover {
+  text-decoration: .2rem underline;
+  color: #00000088;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 6rem;
+  background-color: #EDF4FF99;
+}
+
+.nav img {
+  width: 5rem;
+}
+
+.logo-container {
+  align-items: center;
+  display: flex;
+}
+
+.logo-container > span {
+  color: #00000099;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 1rem;
+  letter-spacing: 1.5px;
+}
+
+.inside {
+  color: #8fb0e5;
+
+}
